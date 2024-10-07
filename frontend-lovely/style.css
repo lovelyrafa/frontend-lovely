@@ -1,0 +1,101 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    background-image: linear-gradient(to top, #f6786a 0%, #fbd3d3 100%);
+  }
+  
+  .card {
+      background: #fff;
+      border-radius: 4px;
+      box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+      max-width: 550px;
+      display: flex;
+      flex-direction: row;
+      border-radius: 25px;
+      position: relative;
+  }
+  
+  .card .left {
+    width: 35%;
+    padding: 30px 20px;
+    background: #dbb2b9;
+    text-align: center; 
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
+  
+  .card .left img{
+    border-radius: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 132px;
+    height: 128px;
+  }
+  
+  .card .left h4{
+    margin-bottom: 10px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  
+  .card .left p{
+    font-size: 12px;
+  
+  }
+  
+  .card .right{
+    width: 65%;
+    padding: 30px 20px;
+  }
+
+  .card .right .cdms-logo img {
+    width: 100px;
+  }
+  
+  .card .right .info h2{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 18px;
+  }
+  
+  .card .right .info .info-data {
+    display: block;
+    }
+  
+  .card .right .info .info-data .data {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  
+  .card .right .info .info-data .data h3{
+    color: #353c4e;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .card .right .info .info-data .data a{
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #919aa3;
+  }
+
+  .card .right .info .social-icon {
+    display: flex;
+    justify-content: space-evenly;
+    width: 30%
+  }
+
+  .card .right .info .social-icon .fbicon img{
+    width: 80%;
+  }
+
+  .card .right .info .social-icon .igicon img {
+    width: 80%;
+  }
